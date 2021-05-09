@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <h1 id="title">Events Countdown</h1>
+        <div class="event_info">
+            <!-- Start the form -->
+        <form class="eventForm">
+            <!-- Event Name -->
+            <label>Event Title</label>
+            <input placeholder="Event Name" type="text" id="event_Name">
+            <br>
+            <!-- Data & Time Of The Event -->
+            <label >Date & Time Of The Event</label>
+            <input type="datetime-local" id="event_Time">
+        </form>
+        </div>
+        <button id="start_btn">Start</button>
+        <!-- The Timer -->
+        <div id="timer"></div>
+    </div>
+    
+    
+    
+    <script src="js/script.js"></script>
+</body>
+</html>

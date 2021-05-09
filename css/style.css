@@ -1,0 +1,50 @@
+body {
+  font-family: cursive;
+  background-color: #4158d0;
+  background-image: linear-gradient(
+    43deg,
+    #4158d0 0%,
+    #c850c0 46%,
+    #ffcc70 100%
+  );
+}
+.container {
+  text-align: center;
+  margin: 100px auto;
+  height: 625px;
+  width: 500px;
+  background-color: whitesmoke;
+
+  border-radius: 30px;
+}
+h1 {
+  background-color: rgb(111 43 104 / 83%);
+  color: white;
+  border-radius: 30px;
+  padding: 8px;
+  font-size: 30px;
+}
+label {
+  display: block;
+  margin: 20px;
+  font-size: 25px;
+}
+input {
+  text-align: center;
+  width: 75%;
+  padding: 10px;
+  border-radius: 25px;
+}
+button {
+  font-family: cursive;
+  margin: 50px;
+  width: 34%;
+  padding: 10px;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 25px;
+}
+button:hover {
+  background-color: rgb(111 43 104 / 83%);
+  color: #fff;
+}
